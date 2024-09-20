@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import azap from './assets/azas.png'
-import azcr from './assets/azcr.svg'
+import gcp from './assets/gcp.png'
+import gcr from './assets/gcr.png'
+import gar from './assets/gar.png'
 
 import './App.css'
 
@@ -11,17 +12,17 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={azcr} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={azap} className="logo" alt="Vite logo" />
+        <a href="" target="_blank">
+          <img src={gcr} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="" target="_blank">
+          <img src={gar} className="logo" alt="Vite logo" />
+        </a>
       </div>
-      <h1>ACR + AAS</h1>
+      <h1>GCR + GAR</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Click Me : {count}
@@ -29,7 +30,7 @@ function App() {
         
       </div>
       <p className="read-the-docs">
-        Created In Order To Learn Azure Deployments
+        Created In Order To Learn GCP Deployments
       </p>
       <p className="read-the-docs">
         made with ❤ <a target='_blank' href="https://github.com/moshdev2213">@moshdev2213</a>
