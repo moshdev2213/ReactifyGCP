@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import gcp from './assets/gcp.png'
 import gcr from './assets/gcr.png'
 import gar from './assets/gar.png'
 
