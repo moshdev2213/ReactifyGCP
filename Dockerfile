@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose port 5757
-EXPOSE 5757
+# EXPOSE 5757
 
 # Start nginx
 CMD ["npm","run","preview"]
